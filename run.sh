@@ -1,0 +1,4 @@
+# CUDA_VISIBLE_DEVICES=0 python hp_t5_trainer.py --model hyperdecoder --data_dir datasets/P3 --output_dir ./hyperrestart/P3-selected/hyper/no_restart --training_steps 1270000 2>&1
+# CUDA_VISIBLE_DEVICES=1 python hp_t5_trainer.py --do_sgdr --model hyperdecoder --data_dir datasets/P3 --output_dir ./hyperrestart/P3-selected/hyper/restart --training_steps 1270000 2>&1
+# CUDA_VISIBLE_DEVICES=2 python hp_t5_trainer.py --model t5 --data_dir datasets/P3 --output_dir ./hyperrestart/P3-selected/base/no_restart --training_steps 1270000 2>&1
+# CUDA_VISIBLE_DEVICES=1 python hp_t5_trainer.py --do_sgdr --model t5 --data_dir datasets/P3 --output_dir ./hyperrestart/P3-selected/base/restart --training_steps 1270000 2>&1

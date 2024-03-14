@@ -1,0 +1,23 @@
+{
+    "add_layer_norm_before_adapter": false,
+    "add_layer_norm_after_adapter": true,
+    "non_linearity": "swish",
+    "reduction_factor": 16,
+    "weight_init_range": 0.01,
+    "conditional_layer_norm": false,
+    "hidden_dim": 128,
+    "train_adapters_blocks": true,
+    "task_embedding_dim": 128,
+    "task_embedding_dir": null,
+    "train_task_embeddings": false,
+    "projected_task_embedding_dim": 64,
+    "task_hidden_dim": 128,
+    "parametric_task_embedding": false,
+    "unique_hyper_net": false,
+    "unique_hyper_net_layer_norm": true,
+    "efficient_unique_hyper_net": false,
+    "do_layer_id": false,
+    "layer_norm_epsilon": 1e-6,
+    "max_position_embeddings": 2,
+    "train_adapters": false
+    }

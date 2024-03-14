@@ -1,0 +1,28 @@
+{
+    "model_configuration": {
+      "prefixed_mode": "encoder-decoder",
+      "encoder_prompt_length": 24,
+      "decoder_prompt_length": 16,
+      "encoder_max_seq_len": 512,
+      "decoder_max_seq_len": 32,
+      "reduction_rate": 32,
+      "layer_task_embed_dim": 128,
+      "indicator_embd_dim": 32,
+      "layer_task_mid_dim": 512,
+      "prefix_dropout": 0.0
+    },
+    "prefixed_mode": "encoder-decoder",
+    "encoder_prompt_length": 24,
+    "decoder_prompt_length": 16,
+    "encoder_max_len": 512,
+    "decoder_max_len": 32,
+    "reduction_rate": 32,
+    "layer_task_embed_dim": 128,
+    "indicator_embd_dim": 32,
+    "layer_task_mid_dim": 512,
+    "prefix_dropout": 0.0,
+    "encoder_max_len": 512,
+    "decoder_max_len": 32,
+    "batch_size": 32,
+    "num_epochs": 10
+}

@@ -1,0 +1,12 @@
+{
+    "add_layer_norm_before_adapter": false,
+    "add_layer_norm_after_adapter": true,
+    "non_linearity": "swish",
+    "reduction_factor": 16,
+    "weight_init_range": 0.01,
+    "conditional_layer_norm": false,
+    "hidden_dim": 128,
+    "train_adapters_blocks": true,
+    "train_adapters": true
+    
+    }
