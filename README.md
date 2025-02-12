@@ -1,6 +1,5 @@
-## Restart HyperInstrucT
-Official repository for the paper: An Empirical Study of Restart in Hypernetworks.
-
+## Restart HyperRestart
+Official repository for the paper: Enhancing Language Model Hypernetworks with Restart: A Study on Optimization
 ### Experiment Setup (Section: 4)
 #### Setup
 For the dataset, we use <https://huggingface.co/datasets/bigscience/P3#source-data>. All the tasks we use can be found in `./P3_tasks.txt`. We put these datas in `./datasets`
@@ -9,7 +8,7 @@ We use flan-t5 model as backbone of Hyperdecoders and the baseline in this secti
 #### Run
 For experiment in section 4, the commands we use are in the file `run.sh`. You can adjust `--eta_min` in our commands to replicate our experiments for different eta_min values.
 
-### Experiment Setup (Section: 5,7)
+### Experiment Setup (Section: 5, 7)
 We refer to the code of Hyperdecoders <https://github.com/allenai/hyperdecoders>. The configs we use in section 5 and 7 are in `./hyperdecoder_configs`.
 #### Setup
 Before you run this code, you need to add restart scheduler in the code. Specifically, you need to add the following code in `hyperdecoders/hyperdecoder/third_party/trainers/t5_trainer.py`:
